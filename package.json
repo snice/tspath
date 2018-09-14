@@ -22,20 +22,19 @@
   "author": "Patrik Forsberg <patrik.forsberg@coldmind.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/duffman/tspath.git"
+    "url": "git+https://github.com/snice/tspath.git"
   },
-  "license": "LGPL-2",
   "dependencies": {
-    "@types/node": "^8.0.25",
     "chalk": "^2.3.0",
     "escodegen": "^1.8.1",
     "esprima": "^4.0.0",
-    "prompt-confirm": "^1.2.0",
-    "typescript": "^2.4.2"
+    "prompt-confirm": "^1.2.0"
   },
   "devDependencies": {
+    "@types/node": "^8.0.25",
     "@types/chai": "^4.0.4",
     "@types/mocha": "^2.2.42",
+    "typescript": "^2.4.2",
     "chai": "^4.1.2",
     "mocha": "^3.5.0",
     "ts-node": "^3.3.0"
