@@ -34,7 +34,7 @@ class ProjectOptions {
         this.pathMappings = {};
         this.outDir = tsconfigObj.outDir;
         this.baseUrl = tsconfigObj.baseUrl;
-        this.processMappings(tsconfigObj.paths);
+        this.processMappings(tsconfigObj.outPaths);
     }
 }
 exports.ProjectOptions = ProjectOptions;
